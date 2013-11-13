@@ -1,0 +1,140 @@
+h1, h2, h3{
+		font-weight: bold;
+	margin-bottom: 5px;
+	color: #FFFFFF; /*#EDB555;*/
+}
+
+h1 {
+	margin-top: 20px;
+	font-size: 30px;
+}
+
+h2 {
+	margin-top: 20px;
+	font-size: 20px;
+	color: #79AFFA;
+	font-weight: normal;
+}
+
+h3 {
+	font-family: "Lucida Sans Unicode", Monaco, monospace;
+	font-weight: normal;
+	margin-top: 10px;
+	font-size: 15px;
+	color: #FFC077;
+}
+
+h4 {
+	font-family: "Lucida Sans Unicode", Monaco, monospace;
+	font-weight: normal;
+	font-size: 14px;
+	color: #FFC077;
+}
+
+h5 {
+	font-family: "Lucida Sans Unicode", Monaco, monospace;
+	font-weight: normal;
+	font-size: 14px;
+	color: #FFFFFF;
+	}
+a:link {color:#79AFFA;}  
+#mainContent
+{
+	/*position: absolute;
+	top: 80px;
+	left: 350px;*/
+	
+	margin-top: 80px;
+	margin-left: 420px;
+	
+	color: #FFFFFF;
+	
+	/*padding: 15px;*/
+	width: 700px;
+	min-height: 200px;
+	
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	
+	line-height: 18px;
+	
+	font-family: "Lucida Sans Unicode", arial;
+	
+	 
+}
+
+#mainContent p {
+	margin-top: 10px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+#mainContent h3{
+	margin-left: 15px;
+}
+#mainContent h4{
+	margin-left: 15px;
+}
+#mainContent h5{
+	margin-left: 15px;
+}
+#mainContent a{
+	margin-left: 15px;
+}
+
+#footer
+{
+	height: 60px;
+	margin-top: 30px;
+	background: transparent url("../images/shared/mit-logo2.gif") no-repeat 30px 0px;
+}
+
+#navbar
+{
+	background-repeat: no-repeat;
+	background-position: 0 1px;
+	
+	margin-left: 150px;
+	margin-top: 80px;
+	
+	width: 250px;
+	
+	float: left;
+}
+
+#navbar ol
+{
+	font-size: 16pt;
+	font-family: "Lucida Console", Monaco, arial;
+	/*list-style-type: decimal;*/
+	
+	margin-left: 45px;
+}
+
+#navbar ol li
+{
+	padding-top: 10px;
+	padding-bottom: 9px;
+}
+
+#navbar ol li a
+{
+	color: #555555;
+	text-decoration: none;
+	
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	user-select: none;
+}
+
+#navbar ol li:hover a
+{
+	color: #FFFFFF;
+}
+
+#navbar ol li.selected a
+{
+	color: #FFFFFF;
+	font-weight: bold;
+}
