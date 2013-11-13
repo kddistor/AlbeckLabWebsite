@@ -1,0 +1,61 @@
+body
+{
+	background: #000000 url("../images/home/background2.jpg") no-repeat scroll top left;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+
+#navbar
+{
+}
+
+#footer
+{
+	height: 60px;
+	margin-top: 730px;
+}
+
+#mainContent
+{
+	background: url("../images/home/mask.png") no-repeat scroll top left;
+}
+
+.overlay
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-repeat: no-repeat;
+	background-position: 2px 1px;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	
+	display: none;
+}
+
+
+#hover1
+{
+	background-image: url("../images/home/highlight1.png");
+}
+
+#hover2
+{
+	background-image: url("../images/home/highlight2.png");
+}
+
+#hover3
+{
+	background-image: url("../images/home/highlight3.png");
+}
+
+#hover4
+{
+	background-image: url("../images/home/highlight4.png");
+}
+
+#hover5
+{
+	background-image: url("../images/home/highlight5.png");
+}
